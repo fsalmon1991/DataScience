@@ -1,0 +1,13 @@
+prefix=/Users/franciscosalmonmoret/DataScience/.conda
+exec_prefix=/Users/franciscosalmonmoret/DataScience/.conda
+libdir=/Users/franciscosalmonmoret/DataScience/.conda/lib
+sharedlibdir=/Users/franciscosalmonmoret/DataScience/.conda/lib
+includedir=/Users/franciscosalmonmoret/DataScience/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
